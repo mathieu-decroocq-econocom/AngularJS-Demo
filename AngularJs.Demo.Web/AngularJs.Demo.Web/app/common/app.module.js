@@ -1,5 +1,5 @@
 ﻿
-import appComponent from "./app.component";
+import { appComponent } from "./app.component";
 
 //import { programsGrid } from './programs-grid/programs-grid.module';
 
@@ -14,7 +14,7 @@ export const app = angular
 
         $stateProvider
             .state('app', {
-                url: '/',
+                url: '/app',
                 component: 'appComponent'
             });
         })

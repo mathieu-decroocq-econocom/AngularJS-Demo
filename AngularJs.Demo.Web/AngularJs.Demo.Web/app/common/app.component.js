@@ -8,7 +8,7 @@ class AppController {
     }
 
     $onInit() {
-        this.$state.go('app');
+        this.data = 'TEST 2';
     }
 }
 
